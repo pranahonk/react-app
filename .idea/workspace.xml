@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="69885439-21d6-467e-9d25-57273e996fa7" name="Default Changelist" comment="" />
+    <list default="true" id="69885439-21d6-467e-9d25-57273e996fa7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/parts/IconText.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/utilities/_text.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/utilities/_text.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/landingPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/landingPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/parts/header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/parts/Header.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,8 +20,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="tsconfig.json" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -41,6 +51,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Telunjuk\react-app\src\parts" />
       <recent name="C:\Telunjuk\react-app\src\assets\scss" />
       <recent name="C:\Telunjuk\react-app\src" />
     </key>
@@ -69,7 +80,9 @@
       <option name="presentableId" value="Default" />
       <updated>1606796015722</updated>
       <workItem from="1606796018470" duration="5479000" />
-      <workItem from="1608623996769" duration="6672000" />
+      <workItem from="1608623996769" duration="8132000" />
+      <workItem from="1608701765049" duration="123000" />
+      <workItem from="1609230726166" duration="1982000" />
     </task>
     <task id="LOCAL-00001" summary="last for unit test with react unit test">
       <created>1608631232484</created>
@@ -78,7 +91,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608631232484</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="last for unit test with react unit test">
+      <created>1608631388339</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1608631388339</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
