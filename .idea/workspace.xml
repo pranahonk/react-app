@@ -5,12 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="69885439-21d6-467e-9d25-57273e996fa7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/parts/IconText.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/utilities/_text.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/utilities/_text.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/landingPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/landingPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/parts/header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/parts/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/elements/Button/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/elements/Button/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +80,8 @@
       <workItem from="1606796018470" duration="5479000" />
       <workItem from="1608623996769" duration="8132000" />
       <workItem from="1608701765049" duration="123000" />
-      <workItem from="1609230726166" duration="1982000" />
+      <workItem from="1609230726166" duration="2023000" />
+      <workItem from="1609237177168" duration="703000" />
     </task>
     <task id="LOCAL-00001" summary="last for unit test with react unit test">
       <created>1608631232484</created>
@@ -98,7 +97,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608631388339</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="next react router dom">
+      <created>1609232735318</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1609232735318</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -119,6 +125,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="last for unit test with react unit test" />
-    <option name="LAST_COMMIT_MESSAGE" value="last for unit test with react unit test" />
+    <MESSAGE value="next react router dom" />
+    <option name="LAST_COMMIT_MESSAGE" value="next react router dom" />
   </component>
 </project>
