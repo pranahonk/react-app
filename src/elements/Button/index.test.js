@@ -1,29 +1,34 @@
-import React from 'react';
-import {render} from "@testing-library/react";
+import React from "react";
+import { render } from "@testing-library/react";
+import { BrowserRouter as Router } from "react-router-dom";
+
 import Button from "./index";
-import {Link} from "react-router-dom";
 
-test("Should not allowed click button if isDisabled is present", ()=>{
-    const {container} = render(<Button isDisabled></Button>)
+test("Should not allowed click button if isDisabled is present", () => {
+  const { container } = render(<Button isDisabled></Button>);
 
-    expect(container.querySelector('span.disabled')).toBeInTheDocument();
+  expect(container.querySelector("span.disabled")).toBeInTheDocument();
 });
 
-test("Should render loading/spinner", ()=>{
-    const {container, getByText} = render(<Button isDisabled></Button>);
+test("Should render loading/spinner", () => {
+  const { container, getByText } = render(<Button isLoading></Button>);
 
-    expect(getByText(/loading/i)).toBeInTheDocument();
-    expect(container.querySelector('span')).toBeInTheDocument();
+  expect(getByText(/loading/i)).toBeInTheDocument();
+  expect(container.querySelector("span")).toBeInTheDocument();
 });
 
-test("Should render tag a", ()=>{
-    const {container} = render(<Button type='link' isExternal></Button>)
+test("Should render <a> tag", () => {
+  const { container } = render(<Button type="link" isExternal></Button>);
 
-    expect(container.querySelector('span.disabled')).toBeInTheDocument();
+  expect(container.querySelector("a")).toBeInTheDocument();
 });
 
-test("Should render link component", ()=>{
-    const {container} = render(<Button type='link'></Button>)
+test("Should render <Link> component", () => {
+  const { container } = render(
+    <Router>
+      <Button href="" type="link"></Button>
+    </Router>
+  );
 
-    expect(container.querySelector('span.disabled')).toBeInTheDocument();
+  expect(container.querySelector("a")).toBeInTheDocument();
 });
